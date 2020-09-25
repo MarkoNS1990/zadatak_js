@@ -15,7 +15,7 @@ const btn2 = document.querySelector("#btn2");
 const btn3 = document.querySelector("#btn3");
 const btn4 = document.querySelector("#btn4");
 const btn5 = document.querySelector("#btn5");
-// const back = document.querySelector("#back");
+
 const p = document.querySelector("p");
 const img = document.querySelector("img");
 const span = document.querySelector("span");
@@ -79,6 +79,12 @@ function clearInput() {
   input2.value = "";
   input3.value = "";
 }
+
+// NULL
+
+// const back = document.querySelector("#back");
+
+// console.log(back);
 
 // back.addEventListener("click", () => {
 //   window.history.back();
